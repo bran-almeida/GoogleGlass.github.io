@@ -1,0 +1,269 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit&display=swap');
+@font-face {
+    font-family: "LogoFont";
+    src: url("../fonts/bubblegum-sans-regular.otf")
+}
+
+html{
+    font-size: 62.5%;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2.5rem;
+    line-height: 3.6rem;
+    font-family: 1.6rem;
+}
+
+a {
+    color:gray;
+    text-decoration: none;
+}
+
+header#cabecalho img#oculos {
+    position: relative;
+    left: 85%;
+    top: -60%;
+    
+}
+
+header#cabecalho {
+    border-bottom: 1px solid grey;
+    height: 200px;
+    background: url('../imagens/glass-logo-peq.jpg') no-repeat 0px 120px;
+}
+
+header#cabecalho h1, h2{
+    margin: 0% 1% 0% 1%;
+}
+
+header#cabecalho h1 {
+    font-family: 'Abril Fatface', cursive;
+    
+    font-size: 5.0rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    color: rgb(39, 39, 39);
+}
+
+header#cabecalho h2 {
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 1.6rem;
+    margin-top: 5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    background-size: 40%;
+    color: rgb(0, 0, 0);
+}
+
+div#interface {
+    
+    width: 90%;
+    max-width: 1440px;
+    background-color: rgb(255, 255, 255);
+    margin: auto auto 10px auto;
+
+}
+
+figure{
+    border: 1px solid black;
+    width: 90%;
+}
+
+figure.imglegend {
+
+    position: relative;  
+}
+
+
+figure.imglegend img {
+    
+    box-shadow: 3px 3px 3px black;
+    width: 100%;
+    height: 100%;
+}
+
+figure.imglegend figcaption {
+    
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.imglegend:hover figcaption {
+    
+    opacity: 1;
+}
+
+nav#Menu ul{
+    position: relative;
+    top: -110px;
+    text-align: right;   
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 2px black;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav#Menu li {
+    
+    display: inline-block;
+    background-color: rgb(39, 39, 39);
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+    /*box-shadow: 3px 3px 3px rgb(0, 0, 0);*/
+    transition: background-color 0.5s;
+}
+
+nav#Menu li:hover {
+    
+    background-color:rgb(121, 0, 0);
+}
+
+nav#Menu h1 {
+   
+    display:none 
+}
+
+nav#Menu a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+section#corpo {
+    
+    display: block;
+    width: 55%;
+    min-width: 320px;
+    float: left;
+    padding: 0% 1% 0% 1%;
+    border-right: 1px solid grey;
+    font-size: 1.6rem;
+}
+
+article#NoticiaPrincipal h2{
+
+    font-family: 'Kanit', sans-serif;
+    background-color:rgb(121, 0, 0);
+    color: white;
+    padding: 0.5rem;
+    font-size: 2rem;
+
+}
+
+header#cabecalho-artigo h1{
+    
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho-artigo h2{
+
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5rem;
+    color:rgb(121, 0, 0);
+    background-color: white;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3{
+    
+    font-size: 1.2rem;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.Atualizado {
+    text-align: right;
+}
+
+aside#lateral {
+    
+    display: block;
+    width: 35%;
+    float: right;
+    background-color:rgb(180, 178, 178);
+    padding: 1rem;
+    margin: 0px 2% 10px 2%;  
+    box-shadow: 3px 3px 3px rgb(39, 39, 39);
+}
+
+aside#lateral h1{
+    
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5rem;
+    color: black;
+}
+
+aside#lateral h2{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 2.0rem;
+    background-color:rgb(121, 0, 0);
+}
+
+aside#lateral p {
+    text-align: justify;
+    font-size: 1.6rem;
+}
+
+footer#rodape {
+    
+    clear: both;
+    border-top: 1px solid grey;
+    text-align: center;
+    padding-top: 10px;
+}
+
+table#FichaTecnica {
+
+    border-spacing: 0px;
+    box-shadow: 5px 5px 5px black;
+    margin: 5% auto 5% auto;
+    
+}
+
+table#FichaTecnica td {
+    
+    border: 1px solid rgb(3, 3, 3);
+    padding: 10px;
+   
+    
+}
+
+table#FichaTecnica td.RColumn {
+    
+    background-color: rgb(180, 178, 178);
+    color: black;
+    text-align: left;    
+}
+
+table#FichaTecnica td.LColumn {
+
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.8rem;
+    text-align: right;
+}
+
+table#FichaTecnica caption {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 55px;
+}

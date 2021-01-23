@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+section#CorpoEspecs {
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+section#Conteudo {
+    width: 1000px;
+    margin: auto;
+}
+
+iframe#IframeJanela {
+    width: 400px;
+    height: 280px;
+    border: none;
+}

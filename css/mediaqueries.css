@@ -1,0 +1,24 @@
+@media (max-width: 767px){
+    
+    div{
+        width: 100%;
+        min-width: 370px;
+    }
+
+    section#corpo{
+        display: flow-root;
+        float: none;
+        width: 80%;
+        margin: auto 5% auto 5%;
+        border: none;
+        padding: 0;
+    }
+
+    img#oculos{
+        display: none;
+    }
+
+    nav#Menu{
+        display:none;
+    }
+}

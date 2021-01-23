@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+div#TvRadio {
+    width: 900px;
+    height: 580px;
+    margin:auto;
+    background: url("../imagens/radio-tv.png") no-repeat;
+    font-size: 1.6rem;
+}
+
+audio#Musica{
+
+    display: block;
+    position: relative;
+    left:575px;
+    top: 495px;
+    width: 300px;
+    height: 40px;
+}
+
+video#Filme {
+
+    display: block;
+    position: relative;
+    left: 79px;
+    top: 70px;
+    width: 455px;
+    height: auto;
+    border-radius: 50px;
+}
+
+div#TvRadio p{
+    color: Red;
+    
+}
+
+video#Video1 {
+
+    width: 100%;
+    height: 100%;
+}
+
+video#Video2 {
+    margin: 1rem auto  1rem auto ;
+    width: 100%;
+    height: 100%;
+}
